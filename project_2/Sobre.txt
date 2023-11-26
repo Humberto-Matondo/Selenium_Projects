@@ -1,0 +1,7 @@
+SCRAPPY_SITES - Projeto freelance de automacao e web scraping
+
+Neste projecto de Automação, entrou-se em um site de E-comerce
+baixou-se todos os nomes, modelos e preços dos aparelhos telefonicos e guardou-se essa informação em um arquivo Excel
+e por final enviar por email esse relatorio de preços de forma automatizada 
+
+AINDA N TERMINEI!

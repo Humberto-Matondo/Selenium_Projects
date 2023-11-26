@@ -2,9 +2,7 @@
     AUTOMAÇÃO PARA O MEU PERFIL DO LINKDIN.
 """
 
-from pathlib import Path
 from time import sleep
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By 
 from selenium.webdriver.common.keys import Keys #todas as teclas se encontram aqui, Ex: enter, space e etc...
@@ -12,8 +10,8 @@ from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait  
 
-ROOT_FOLDER = Path(__file__).parent
-EDGE_DRIVER_EXEC = ROOT_FOLDER / 'drivers' / 'msedgedriver.exe'
+EDGE_DRIVER_EXEC = 'C:/Users/HP/Desktop/ProjetosPYTHON/Selenium_Projects/drivers/msedgedriver.exe'
+
 
 def make_edge_browser(*options: str) -> webdriver.Edge:
 
